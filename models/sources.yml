@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: my_sources
+    description: The logical name of the sources
+    database: raw
+    schema: jaffle_shop
+    tables:
+      - name: customers
+        description: one record per customer.
+      - name: orders
+        description: one record per order. Includes cancelled and deleted orders.
